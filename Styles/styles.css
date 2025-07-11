@@ -1,0 +1,57 @@
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    color: #4F46E5;
+
+}
+
+
+.open-sans-raleway {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.header{
+    background-image: url(../Assets/Hero-bg.png);
+    height: 400px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+    
+
+}
+
+.class-ul-li-a{
+    text-decoration: none;
+}
+
+.banner-content{
+    max-width:  0 px 200px 0 200px;
+    text-align: center;
+    
+}
+/* eita niya kaaj baki ase */
+.button{
+    display: inline-block;
+      background-color: #4F46E5;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+}
+/* ei porjonto */
