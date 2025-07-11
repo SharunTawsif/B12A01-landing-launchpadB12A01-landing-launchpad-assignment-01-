@@ -198,3 +198,91 @@ nav {
   padding: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex
+}
+
+.form-text h1 {
+  font-size: 97px;
+  color: #111827;
+  margin: 0 50px 20px 0; 
+  line-height: 1.2;
+  width: 500px;
+  padding-left:260px;
+  padding-top: 100px;
+}
+
+form {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 250px;
+}
+
+form label {
+  font-weight: 600;
+  margin: 15px 0 5px;
+}
+
+form input,
+form textarea {
+  padding: 14px;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.button {
+  background-color: #4F46E5;
+  color: white;
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3730a3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .form-part {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-text h1 {
+    margin: 0 0 40px 0;
+    font-size: 42px;
+  }
+
+  form {
+    max-width: 100%;
+  }
+}
