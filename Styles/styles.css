@@ -29,7 +29,7 @@ body {
 .head-cls{
     font-family: "Raleway", sans-serif;
     color: #111827;
-    font-weight: 500; 
+    font-weight: 550; 
 }
 
 
@@ -42,7 +42,7 @@ nav {
 
 .header {
   background-image: url(../Assets/Hero-bg.png);
-  height: 500px;
+  height: 550px;
 }
 
 .banner-content {
@@ -258,6 +258,7 @@ form {
 form label {
   font-weight: 600;
   margin: 15px 0 5px;
+  font-family: "Raleway", sans-serif;
 }
 
 form input,
@@ -274,27 +275,14 @@ form textarea {
   margin-bottom: 20px;
 }
 
-.button {
-  background-color: #4F46E5;
-  color: white;
-  padding: 16px;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  margin-top: 20px;
-  cursor: pointer;
-  
-}
 
-.button:hover {
-  background-color: #3730a3;
-}
 
-/* Responsive adjustments */
+
 @media (max-width: 900px) {
   .form-part {
     flex-direction: column;
     text-align: center;
+    
   }
 
   .form-text h1 {
