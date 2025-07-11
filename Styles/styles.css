@@ -1,25 +1,43 @@
-.open-sans-inter {
-  font-family: "Open Sans", sans-serif;
+
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  font-variation-settings: "wdth" 200;
+  font-variation-settings: "width" 200;
   color: #4F46E5;
+  margin: 0;
+  padding: 0;
+  line-height: 5;
 }
 
-.open-sans-raleway {
-  font-family: "Open Sans", sans-serif;
+
+.raleway-font {
+  font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
   font-variation-settings: "width" 100;
 }
+body {
+  background-color: #F7F9FF;
+}
+
+
+.head-cls{
+    font-family: "Raleway", sans-serif;
+    color: #111827;
+    font-weight: 500; 
+}
+
 
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center; 
   padding: 30px 100px;
-  align-items: center;
 }
 
 .header {
@@ -39,28 +57,34 @@ nav {
   text-align: center;
 }
 
-.button {
-  display: inline-block;
-  background-color: #4F46E5;
-  color: white;
-  padding: 15px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer;
-}
+
 
 .bellow-banner {
   display: flex;
-  justify-content: space-between;
-  padding: 70px 100px;
+  justify-content: center;
   align-items: center;
+  padding: 40px 40px;
+  gap: 150px; 
+}
+
+
+.bellow-banner-text {
+  flex: 1;
+  max-width: 500px;
+  margin-right: 50px; 
+  font-size: 25px;
+  font-family: "Raleway", sans-serif;
+
 }
 
 .bellow-banner-img {
   border-radius: 48px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }
+
+
 
 .ash {
   color: #9CA3AF;
@@ -74,14 +98,17 @@ nav {
   margin: 70px auto;
   width: 80%; 
   height: 206px;
+  font-family: "Inter", sans-serif;
 }
 
 
 .statistics h2 {
   color: #252432;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  
 }
 
 .stats-container {
@@ -97,12 +124,14 @@ nav {
   font-size: 80px;
   margin: 0;
   font-weight: 700;
+  
 }
 
 .stat p {
   color: #6b7280;
   font-size: 20px;
   margin-top: 8px;
+  font-family: "Inter", sans-serif;
 }
 
 
@@ -115,6 +144,7 @@ nav {
   font-size: 32px;
   margin-bottom: 40px;
   color: #252432;
+  font-family: "Raleway", sans-serif;
 }
 
 .testimonial-cards {
@@ -149,6 +179,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 10px;
+  
 }
 
 .reviewer img {
@@ -185,6 +216,7 @@ nav {
   font-size: 36px;
   color: #252432;
   margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 .focus-section p {
@@ -197,21 +229,6 @@ nav {
   border-radius: 48px;
   padding: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .form-part {
   display: flex;
@@ -227,6 +244,7 @@ nav {
   width: 500px;
   padding-left:260px;
   padding-top: 100px;
+  font-family: "Raleway", sans-serif;
 }
 
 form {
@@ -253,6 +271,7 @@ form textarea {
 form textarea {
   resize: vertical;
   min-height: 100px;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -264,6 +283,7 @@ form textarea {
   font-weight: 600;
   margin-top: 20px;
   cursor: pointer;
+  
 }
 
 .button:hover {
@@ -286,3 +306,77 @@ form textarea {
     max-width: 100%;
   }
 }
+
+
+footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+footer .logo {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "width" 200;
+  color: #4F46E5;
+  font-size: 100px; 
+  margin-bottom: 20px;
+}
+
+
+.footer-des {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #6B7280; 
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-contents {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.footer-contents li a {
+  text-decoration: none;
+  color: #6B7280;
+  font-size: 18px ;
+  /* width: 530px;
+  height: 50px; */
+}
+
+.footer-contents li a:hover {
+  color: #4F46E5;
+}
+
+
+/* challenge part(button animation) */
+
+.animated-button {
+  background-color: #4F46E5;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.5s ease, background-color 0.5s ease;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+
+.animated-button:hover {
+  transform: scale(1.4); 
+  background-color: orange;
+}
+
